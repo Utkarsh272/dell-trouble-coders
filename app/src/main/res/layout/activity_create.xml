@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:gravity="bottom"
+            android:layout_below="@id/layout1"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Submit"/>
+            <!--<Button-->
+            <!--android:layout_width="210dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="Skip"/>-->
+        </LinearLayout>
+        <ScrollView
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_marginTop="14dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Name : "/>
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:enabled="true"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number : "/>
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:enabled="true"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="EmailId : "/>
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:enabled="true"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Shipping Address : "/>
+                    <EditText
+                        android:id="@+id/add"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:enabled="true"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="City : "/>
+                    <EditText
+                        android:id="@+id/city"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:enabled="true"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="State : "/>
+                    <EditText
+                        android:id="@+id/state"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:enabled="true"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Pincode : "/>
+                    <EditText
+                        android:id="@+id/pincode"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:enabled="true"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Country : "/>
+                    <EditText
+                        android:id="@+id/country"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:text="India"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
